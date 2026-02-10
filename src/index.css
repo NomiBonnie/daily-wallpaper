@@ -2,63 +2,84 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Custom Calendar Styling - Luxury Brand Aesthetic */
+.luxury-calendar {
+  @apply w-full border-none font-light;
 }
 
-.react-calendar {
-  width: 100%;
-  max-width: 600px;
-  background: white;
-  border: none;
-  font-family: inherit;
-  line-height: 1.5;
-  border-radius: 8px;
-  padding: 1rem;
+.luxury-calendar .react-calendar__navigation {
+  @apply mb-6;
 }
 
-.react-calendar__tile {
-  padding: 0.75rem 0.5rem;
-  background: none;
-  text-align: center;
-  border-radius: 4px;
-  transition: all 0.2s;
+.luxury-calendar .react-calendar__navigation button {
+  @apply text-neutral-900 dark:text-neutral-100 min-w-[44px] bg-transparent hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-lg transition-colors font-light text-sm;
 }
 
-.react-calendar__tile:enabled:hover,
-.react-calendar__tile:enabled:focus {
-  background-color: #e6e6e6;
+.luxury-calendar .react-calendar__navigation button:disabled {
+  @apply bg-transparent text-neutral-300 dark:text-neutral-700;
 }
 
-.react-calendar__tile--active {
-  background: #3b82f6;
-  color: white;
+.luxury-calendar .react-calendar__month-view__weekdays {
+  @apply text-xs tracking-widest uppercase text-neutral-400 dark:text-neutral-500 font-light mb-4;
 }
 
-.react-calendar__tile--now {
-  background: #fef3c7;
+.luxury-calendar .react-calendar__month-view__weekdays__weekday {
+  @apply text-center py-2;
 }
 
-.react-calendar__tile--hasWallpaper {
-  background: #dbeafe;
-  font-weight: 600;
+.luxury-calendar .react-calendar__month-view__weekdays__weekday abbr {
+  @apply no-underline;
 }
 
-.react-calendar__navigation button {
-  font-size: 1rem;
-  padding: 0.5rem;
-  background: none;
-  border: none;
-  font-weight: 500;
+.luxury-calendar .react-calendar__tile {
+  @apply aspect-square flex items-center justify-center p-0 text-neutral-700 dark:text-neutral-300 bg-transparent hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-lg transition-all font-light text-sm;
+  min-height: 48px;
 }
 
-.react-calendar__navigation button:enabled:hover,
-.react-calendar__navigation button:enabled:focus {
-  background-color: #e6e6e6;
-  border-radius: 4px;
+.luxury-calendar .react-calendar__tile:disabled {
+  @apply text-neutral-300 dark:text-neutral-700 hover:bg-transparent cursor-default;
+}
+
+.luxury-calendar .react-calendar__tile--now {
+  @apply bg-neutral-100 dark:bg-neutral-800 font-normal;
+}
+
+.luxury-calendar .react-calendar__tile--active {
+  @apply bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 hover:bg-neutral-800 dark:hover:bg-neutral-200;
+}
+
+.luxury-calendar .react-calendar__tile.wallpaper-date {
+  @apply relative font-normal text-neutral-900 dark:text-neutral-100;
+}
+
+.luxury-calendar .react-calendar__tile.wallpaper-date::after {
+  content: '';
+  @apply absolute bottom-1 left-1/2 transform -translate-x-1/2 w-1 h-1 rounded-full bg-neutral-900 dark:bg-neutral-100;
+}
+
+.luxury-calendar .react-calendar__tile--active.wallpaper-date::after {
+  @apply bg-white dark:bg-neutral-900;
+}
+
+/* Smooth transitions */
+* {
+  @apply transition-colors duration-200;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-neutral-100 dark:bg-neutral-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-neutral-300 dark:bg-neutral-700 rounded-full hover:bg-neutral-400 dark:hover:bg-neutral-600;
+}
+
+/* Selection color */
+::selection {
+  @apply bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900;
 }

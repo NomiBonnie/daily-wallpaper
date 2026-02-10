@@ -1,124 +1,47 @@
-# 每日壁纸 - Daily Wallpaper
+# Daily Wallpaper
 
-每天收集最美的一张图作为手机壁纸，并提供日历查看历史壁纸。
+A curated collection of daily wallpapers for the discerning eye.
 
-## 功能特性
+## Features
 
-✨ **今日壁纸** - 每天精选一张高质量壁纸  
-📅 **历史日历** - 日历视图查看过去的壁纸  
-📱 **移动优化** - 完美适配手机屏幕  
-⬇️ **一键下载** - 快速保存壁纸到手机  
-🎨 **精美界面** - 简洁现代的设计风格  
+- **Daily Selection**: New premium wallpaper every day
+- **Archive**: Browse through past wallpapers with calendar view
+- **Dark Mode**: Automatic theme detection with manual toggle
+- **Mobile Optimized**: Designed for iPhone Pro Max and modern devices
+- **Minimalist Design**: Inspired by luxury brand aesthetics
 
-## 技术栈
+## Design Philosophy
 
-- **前端框架**: React + TypeScript
-- **样式**: Tailwind CSS
-- **日历组件**: react-calendar
-- **日期处理**: date-fns
-- **构建工具**: Vite
+- Clean, spacious layouts with generous whitespace
+- Typography-focused hierarchy
+- Smooth transitions and interactions
+- Premium feel with attention to detail
 
-## 安装和运行
+## Tech Stack
 
-### 1. 安装依赖
+- React 18 + TypeScript
+- Vite
+- Tailwind CSS
+- React Calendar
+- date-fns
+
+## Development
 
 ```bash
+# Install dependencies
 npm install
-```
 
-### 2. 启动开发服务器
-
-```bash
+# Start dev server
 npm run dev
-```
 
-访问 http://localhost:3000
-
-### 3. 构建生产版本
-
-```bash
+# Build for production
 npm run build
 ```
 
-## 项目结构
+## Live Site
 
-```
-daily-wallpaper/
-├── src/
-│   ├── App.tsx          # 主应用组件
-│   ├── data.ts          # 壁纸数据和 API
-│   ├── index.css        # 全局样式
-│   └── main.tsx         # 应用入口
-├── index.html
-├── package.json
-├── vite.config.ts
-├── tailwind.config.js
-└── tsconfig.json
-```
-
-## 自定义壁纸
-
-编辑 `src/data.ts` 文件中的 `wallpapers` 数组来添加你自己的壁纸：
-
-```typescript
-{
-  id: '1',
-  date: '2026-02-10',
-  imageUrl: 'https://example.com/wallpaper.jpg',  // 高清原图
-  thumbnailUrl: 'https://example.com/thumb.jpg',  // 缩略图
-  title: '壁纸标题',
-  description: '壁纸描述',
-  photographer: '摄影师名字',
-  source: '来源'
-}
-```
-
-## 接入真实 API
-
-当前使用的是示例数据。要接入真实的壁纸 API（如 Unsplash），可以：
-
-1. 注册 [Unsplash API](https://unsplash.com/developers) 获取 API key
-2. 修改 `src/data.ts` 添加 API 请求逻辑
-3. 实现自动获取每日壁纸的功能
-
-## 部署
-
-### Vercel（推荐）
-
-```bash
-npm install -g vercel
-vercel
-```
-
-### Netlify
-
-```bash
-npm run build
-# 将 dist 目录上传到 Netlify
-```
-
-## 使用说明
-
-1. **今日壁纸**: 点击"今日壁纸"查看当天精选的壁纸
-2. **历史壁纸**: 点击"历史壁纸"进入日历视图
-3. **选择日期**: 在日历中点击有蓝色背景的日期查看该日壁纸
-4. **下载壁纸**: 点击"下载壁纸"按钮在新标签页打开高清原图
-5. **保存到手机**: 在新标签页长按图片保存到相册
-
-## 待实现功能
-
-- [ ] 壁纸收藏功能
-- [ ] 分享到社交媒体
-- [ ] 自动每日更新
-- [ ] 用户上传壁纸
-- [ ] 壁纸分类和标签
-- [ ] 搜索功能
-- [ ] 深色模式
-
-## License
-
-MIT
+Visit: [https://nomibonnie.github.io/daily-wallpaper/](https://nomibonnie.github.io/daily-wallpaper/)
 
 ---
 
-Made with ❤️ by NOMI
+© 2026 Daily Wallpaper. All rights reserved.
