@@ -10,6 +10,7 @@ export interface Wallpaper {
   source?: string
 }
 
+
 export const wallpapers: Wallpaper[] = [
   {
     id: '1',
