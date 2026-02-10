@@ -4,7 +4,11 @@
 
 /* Custom Calendar Styling - Luxury Brand Aesthetic with Dark Mode */
 .luxury-calendar {
-  @apply w-full border-none font-light;
+  @apply w-full border-none font-light bg-transparent;
+}
+
+.luxury-calendar * {
+  background-color: transparent !important;
 }
 
 .luxury-calendar .react-calendar__navigation {
