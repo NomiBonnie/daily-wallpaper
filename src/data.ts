@@ -58,8 +58,8 @@ export const wallpapers: Wallpaper[] = [
   {
     id: '5',
     date: '2026-02-10',
-    imageUrl: 'https://images.unsplash.com/photo-1727594093166-271d03ffd941?w=1080&q=95',
-    thumbnailUrl: 'https://images.unsplash.com/photo-1727594093166-271d03ffd941?w=600&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1758794093166-271d03ffd941?w=1080&q=95',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1758794093166-271d03ffd941?w=600&q=80',
     title: 'Perito Moreno Glacier',
     description: 'Massive blue glacier with turquoise meltwater and floating icebergs',
     story: 'On this day in 1985, China\'s Great Wall Station was completed in Antarctica, marking the beginning of Chinese polar exploration. Like this ancient glacier standing through millennia, human curiosity for the unknown endures forever.',
