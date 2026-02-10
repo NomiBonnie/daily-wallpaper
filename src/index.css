@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom Calendar Styling - Luxury Brand Aesthetic */
+/* Custom Calendar Styling - Luxury Brand Aesthetic with Dark Mode */
 .luxury-calendar {
   @apply w-full border-none font-light;
 }
@@ -20,7 +20,7 @@
 }
 
 .luxury-calendar .react-calendar__month-view__weekdays {
-  @apply text-xs tracking-widest uppercase text-neutral-400 dark:text-neutral-500 font-light mb-4;
+  @apply text-xs tracking-widest uppercase text-neutral-400 dark:text-neutral-600 font-light mb-4;
 }
 
 .luxury-calendar .react-calendar__month-view__weekdays__weekday {
@@ -32,12 +32,12 @@
 }
 
 .luxury-calendar .react-calendar__tile {
-  @apply aspect-square flex items-center justify-center p-0 text-neutral-700 dark:text-neutral-300 bg-transparent hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-lg transition-all font-light text-sm;
+  @apply aspect-square flex items-center justify-center p-0 text-neutral-700 dark:text-neutral-400 bg-transparent hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-lg transition-all font-light text-sm;
   min-height: 48px;
 }
 
 .luxury-calendar .react-calendar__tile:disabled {
-  @apply text-neutral-300 dark:text-neutral-700 hover:bg-transparent cursor-default;
+  @apply text-neutral-300 dark:text-neutral-800 hover:bg-transparent cursor-default;
 }
 
 .luxury-calendar .react-calendar__tile--now {

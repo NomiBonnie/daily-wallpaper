@@ -5,6 +5,7 @@ export interface Wallpaper {
   thumbnailUrl?: string
   title: string
   description?: string
+  story?: string // 壁纸背后的故事/原因
   photographer?: string
   source?: string
 }
@@ -17,6 +18,7 @@ export const wallpapers: Wallpaper[] = [
     thumbnailUrl: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80',
     title: 'Mountain Peak',
     description: 'Majestic alpine summit bathed in golden light',
+    story: 'On this day in 1971, Apollo 14 astronauts returned from the moon. This mountain peak reminds us of humanity\'s eternal drive to reach new heights and explore the unknown.',
     photographer: 'John Doe',
     source: 'Unsplash',
   },
@@ -27,6 +29,7 @@ export const wallpapers: Wallpaper[] = [
     thumbnailUrl: 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=600&q=80',
     title: 'Ocean Waves',
     description: 'Serene coastal landscape at dusk',
+    story: 'Charles Dickens was born on this day in 1812. Like the endless rhythm of ocean waves, his timeless stories continue to resonate through generations.',
     photographer: 'Jane Smith',
     source: 'Unsplash',
   },
@@ -37,6 +40,7 @@ export const wallpapers: Wallpaper[] = [
     thumbnailUrl: 'https://images.unsplash.com/photo-1465146633011-14f8e0781093?w=600&q=80',
     title: 'Wildflower Meadow',
     description: 'Vibrant spring blooms in morning light',
+    story: 'Today marks the traditional beginning of spring in many cultures. These wildflowers symbolize renewal, hope, and the promise of warmer days ahead.',
     photographer: 'Alice Johnson',
     source: 'Unsplash',
   },
@@ -47,6 +51,7 @@ export const wallpapers: Wallpaper[] = [
     thumbnailUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&q=80',
     title: 'Forest Path',
     description: 'Enchanting woodland trail through ancient trees',
+    story: 'On this day in 1964, The Beatles made their first appearance on The Ed Sullivan Show. This forest path invites us to take the road less traveled, just as they revolutionized music.',
     photographer: 'Bob Williams',
     source: 'Unsplash',
   },
@@ -57,6 +62,7 @@ export const wallpapers: Wallpaper[] = [
     thumbnailUrl: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600&q=80',
     title: 'Misty Mountains',
     description: 'Ethereal peaks emerging from clouds at sunrise',
+    story: 'On this day in 1996, IBM\'s Deep Blue defeated world chess champion Garry Kasparov for the first time. Like these mountains emerging from the mist, innovation breaks through the impossible.',
     photographer: 'John Doe',
     source: 'Unsplash',
   },

@@ -131,6 +131,17 @@ function App() {
                     </p>
                   )}
 
+                  {todayWallpaper.story && (
+                    <div className="pt-4 border-t border-neutral-200 dark:border-neutral-800">
+                      <p className="text-xs font-light tracking-[0.2em] uppercase text-neutral-400 dark:text-neutral-500 mb-3">
+                        Today's Story
+                      </p>
+                      <p className="text-sm font-light leading-relaxed text-neutral-600 dark:text-neutral-400">
+                        {todayWallpaper.story}
+                      </p>
+                    </div>
+                  )}
+
                   {todayWallpaper.photographer && (
                     <p className="text-sm font-light text-neutral-500 dark:text-neutral-500">
                       Photo by {todayWallpaper.photographer}
