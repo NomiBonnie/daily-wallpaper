@@ -4,10 +4,15 @@
 
 /* Custom Calendar Styling - Luxury Brand Aesthetic with Dark Mode */
 .luxury-calendar {
-  @apply w-full border-none font-light bg-transparent;
+  @apply w-full border-none font-light;
 }
 
-.luxury-calendar * {
+/* Force transparent backgrounds for calendar in dark mode */
+.dark .luxury-calendar .react-calendar__viewContainer {
+  background-color: transparent !important;
+}
+
+.dark .luxury-calendar .react-calendar__month-view {
   background-color: transparent !important;
 }
 
@@ -35,13 +40,23 @@
   @apply no-underline;
 }
 
+.luxury-calendar .react-calendar__month-view__days {
+  background-color: transparent !important;
+}
+
 .luxury-calendar .react-calendar__tile {
-  @apply aspect-square flex items-center justify-center p-0 text-neutral-700 dark:text-neutral-400 bg-transparent hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-lg transition-all font-light text-sm;
+  @apply aspect-square flex items-center justify-center p-0 text-neutral-700 dark:text-neutral-400 rounded-lg transition-all font-light text-sm;
   min-height: 48px;
+  background-color: transparent !important;
+}
+
+.luxury-calendar .react-calendar__tile:enabled:hover {
+  @apply bg-neutral-100 dark:bg-neutral-800;
 }
 
 .luxury-calendar .react-calendar__tile:disabled {
-  @apply text-neutral-300 dark:text-neutral-800 hover:bg-transparent cursor-default;
+  @apply text-neutral-300 dark:text-neutral-800 cursor-default;
+  background-color: transparent !important;
 }
 
 .luxury-calendar .react-calendar__tile--now {
@@ -49,7 +64,11 @@
 }
 
 .luxury-calendar .react-calendar__tile--active {
-  @apply bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 hover:bg-neutral-800 dark:hover:bg-neutral-200;
+  @apply bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900;
+}
+
+.luxury-calendar .react-calendar__tile--active:enabled:hover {
+  @apply bg-neutral-800 dark:bg-neutral-200;
 }
 
 .luxury-calendar .react-calendar__tile.wallpaper-date {
