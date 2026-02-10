@@ -8,6 +8,10 @@
 }
 
 /* Force transparent backgrounds for calendar in dark mode */
+.dark .luxury-calendar.react-calendar {
+  background-color: transparent !important;
+}
+
 .dark .luxury-calendar .react-calendar__viewContainer {
   background-color: transparent !important;
 }
