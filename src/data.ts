@@ -67,4 +67,15 @@ export const wallpapers: Wallpaper[] = [
     photographer: 'Grégory Andrey',
     source: 'Unsplash',
   },
+  {
+    id: '6',
+    date: '2026-02-11',
+    imageUrl: 'https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=1080&q=95',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=600&q=80',
+    title: 'Light of Freedom',
+    description: 'Warm sunlight breaking through dramatic clouds at dawn',
+    story: 'On this day in 1990, Nelson Mandela walked free after 27 years. He chose forgiveness to light the future. Like this sunrise, after the deepest night, dawn always comes. Freedom is not a sudden gift, but a crack carved by countless people with persistence. Today, let this light remind us: hope never gives up.',
+    photographer: 'Johannes Plenio',
+    source: 'Unsplash',
+  },
 ]
