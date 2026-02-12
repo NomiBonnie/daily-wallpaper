@@ -78,4 +78,15 @@ export const wallpapers: Wallpaper[] = [
     photographer: 'Johannes Plenio',
     source: 'Unsplash',
   },
+  {
+    id: '7',
+    date: '2026-02-12',
+    imageUrl: 'https://images.unsplash.com/photo-1762430440987-fc9c3f7bd961?w=1080&q=95',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1762430440987-fc9c3f7bd961?w=600&q=80',
+    title: 'Breaking Chains',
+    description: 'Statue of two men breaking chains under a clear sky',
+    story: 'On this day in 1809, Abraham Lincoln was born. Also on this exact day, Charles Darwin entered the world. One freed millions from slavery, the other liberated human thought from ignorance. Two men, same birthday, both changed history by breaking chains—one visible, one invisible. Today we celebrate the power of liberation.',
+    photographer: 'Adeyemi Bamtefa',
+    source: 'Unsplash',
+  },
 ]
