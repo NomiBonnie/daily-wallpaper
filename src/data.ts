@@ -100,4 +100,15 @@ export const wallpapers: Wallpaper[] = [
     photographer: 'Gabriel Mihalcea',
     source: 'Unsplash',
   },
+  {
+    id: '9',
+    date: '2026-02-14',
+    imageUrl: 'https://images.unsplash.com/photo-1727879399908-7a8575cd5bc3?w=1080&q=95',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1727879399908-7a8575cd5bc3?w=600&q=80',
+    title: 'The Importance of Being in Love',
+    description: 'Silhouettes of a couple looking at each other at golden hour',
+    story: 'On this day in 1895, Oscar Wilde\'s "The Importance of Being Earnest" premiered in London. That same night, love letters were exchanged, vows whispered, hearts broken and mended. Wilde once wrote: "To love oneself is the beginning of a lifelong romance." Today, as sunlight crowns two silhouettes, remember—love is the only serious thing worth being earnest about.',
+    photographer: 'Pedro Pulido',
+    source: 'Unsplash',
+  },
 ]
