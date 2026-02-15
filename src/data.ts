@@ -111,4 +111,15 @@ export const wallpapers: Wallpaper[] = [
     photographer: 'Pedro Pulido',
     source: 'Unsplash',
   },
+  {
+    id: '10',
+    date: '2026-02-15',
+    imageUrl: 'https://images.unsplash.com/photo-1756326518956-e9388bd205b4?w=1080&q=95',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1756326518956-e9388bd205b4?w=600&q=80',
+    title: 'The Blue Danube',
+    description: 'Hungarian Parliament Building illuminated at the blue hour, reflected in the Danube River',
+    story: 'On this day in 1867, Johann Strauss II premiered "The Blue Danube" waltz in Vienna. It flopped at first—critics yawned, audiences shrugged. Yet today it\'s the world\'s most beloved waltz, played at midnight every New Year\'s Eve. Like this parliament standing proud over the Danube at dusk, some masterpieces need time to reveal their brilliance. The river flows on; the music plays forever.',
+    photographer: 'Himmel S',
+    source: 'Unsplash',
+  },
 ]
