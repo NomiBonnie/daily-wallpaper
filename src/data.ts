@@ -122,4 +122,15 @@ export const wallpapers: Wallpaper[] = [
     photographer: 'Himmel S',
     source: 'Unsplash',
   },
+  {
+    id: '11',
+    date: '2026-02-16',
+    imageUrl: 'https://images.unsplash.com/photo-1648139210431-f5a62bc3f126?w=1080&q=95',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1648139210431-f5a62bc3f126?w=600&q=80',
+    title: 'Wonderful Things',
+    description: 'Golden corridor inside a pharaoh\'s tomb in the Valley of the Kings',
+    story: 'On this day in 1923, Howard Carter unsealed the burial chamber of Tutankhamun and glimpsed "wonderful things"—gold glinting in candlelight, the face of a boy-king asleep for 3,300 years. This corridor echoes that moment: hieroglyphs whisper secrets, golden light beckons forward. Some discoveries don\'t just reveal the past—they redefine how we see ourselves.',
+    photographer: 'Michael Starkie',
+    source: 'Unsplash',
+  },
 ]
