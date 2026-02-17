@@ -133,4 +133,15 @@ export const wallpapers: Wallpaper[] = [
     photographer: 'Michael Starkie',
     source: 'Unsplash',
   },
+  {
+    id: '12',
+    date: '2026-02-17',
+    imageUrl: 'https://images.pexels.com/photos/932638/pexels-photo-932638.jpeg?auto=compress&cs=tinysrgb&w=1080',
+    thumbnailUrl: 'https://images.pexels.com/photos/932638/pexels-photo-932638.jpeg?auto=compress&cs=tinysrgb&w=600',
+    title: 'The Hidden Continent',
+    description: 'Sunlight rays penetrating the deep blue ocean abyss',
+    story: 'On this day in 2017, scientists announced the discovery of Zealandia—a continent 94% submerged beneath the South Pacific, larger than India, hidden in plain sight for 85 million years. This deep blue reminds us: the greatest discoveries often lie beneath the surface we take for granted. Some truths require us to dive deeper.',
+    photographer: 'Blaque X',
+    source: 'Pexels',
+  },
 ]
