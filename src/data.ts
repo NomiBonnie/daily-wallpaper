@@ -144,4 +144,15 @@ export const wallpapers: Wallpaper[] = [
     photographer: 'Blaque X',
     source: 'Pexels',
   },
+  {
+    id: '13',
+    date: '2026-02-18',
+    imageUrl: 'https://images.unsplash.com/photo-1662064355051-6b9bfbaee780?w=1080&q=95',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1662064355051-6b9bfbaee780?w=600&q=80',
+    title: 'The Ninth World',
+    description: 'Milky Way core rising above mountain silhouettes at dusk',
+    story: 'On this day in 1930, a 24-year-old farm boy from Kansas named Clyde Tombaugh discovered Pluto—a tiny dot on photographic plates, hiding at the edge of our solar system for billions of years. It took 14 hours a day comparing photographs by eye. Today, as we gaze at distant stars, remember: the universe rewards those who look patiently into the darkness.',
+    photographer: 'Jonny Gios',
+    source: 'Unsplash',
+  },
 ]
