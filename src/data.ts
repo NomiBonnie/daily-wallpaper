@@ -92,12 +92,12 @@ export const wallpapers: Wallpaper[] = [
   {
     id: '8',
     date: '2026-02-13',
-    imageUrl: 'https://images.unsplash.com/photo-1643083813177-8e0263e50ddb?w=1080&q=95',
-    thumbnailUrl: 'https://images.unsplash.com/photo-1643083813177-8e0263e50ddb?w=600&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=1080&q=95',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=600&q=80',
     title: 'Lucy in the Sky',
-    description: 'Milky Way photographed vertically at night',
+    description: 'Milky Way stretching across the night sky',
     story: 'On this day in 2004, astronomers announced the discovery of the largest diamond in the universe—a white dwarf star named "Lucy" after The Beatles\' song. This cosmic gem, 50 light-years away, is a crystallized carbon star 10 billion trillion trillion carats. Tonight, as you gaze at the stars, remember: the universe is not cold emptiness, but a treasury of wonders waiting to be found.',
-    photographer: 'Gabriel Mihalcea',
+    photographer: 'Graham Holtshausen',
     source: 'Unsplash',
   },
   {
